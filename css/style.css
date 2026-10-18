@@ -2,3 +2,51 @@
     margin: 0;
     padding: 0;
 }
+ul{
+    list-style: none;
+}
+  /* header start here */
+.headerPart{
+    padding:50px 0;
+    
+}
+.container{
+   
+   
+    margin: 0 auto;
+    width: 1140px;
+}
+.menu ul{
+    display: flex;
+gap: 71px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn a{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    text-decoration: none;
+    color: white;
+  font-family: "Open Sans", sans-serif;
+
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+
+
+}
+.menu ul li a{
+      font-family: "Open Sans", sans-serif;
+    color: #474747;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.menuBtn{
+    display: flex;
+    gap:51px;
+}
+/* header end here */
