@@ -50,3 +50,36 @@ gap: 71px;
     gap:51px;
 }
 /* header end here */
+/* banner start here */
+.bannerPart{
+    padding-top: 161px;
+    background-image: url(../images/Untitled\ design.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerPart h3{
+      font-family: "Open Sans", sans-serif;
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.bannerPart h1{
+      font-family: "Open Sans", sans-serif;
+    color: ##181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.bannerPart p{
+      font-family: "Open Sans", sans-serif;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+}
+.bannerFlex{
+    display: flex;
+    gap: 165px;
+}
