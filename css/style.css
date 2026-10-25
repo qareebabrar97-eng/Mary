@@ -48,7 +48,12 @@ gap: 71px;
     color: #474747;
     font-size: 20px;
     text-decoration: none;
+    
 
+}
+.menu ul li a:hover{
+    color:#FD6E0A;
+    transition: .4s;
 }
 .menuBtn{
     display: flex;
@@ -126,6 +131,7 @@ gap: 71px;
     border: 1px solid #FD6E0A;
     background:transparent;
     color: #FD6E0A;
+    transition: .4s;
 }
 .btnn{
      padding-top: 19px;
@@ -145,4 +151,103 @@ gap: 71px;
      border: 1px solid #FD6E0A;
     background:transparent;
     color: #FD6E0A;
+}
+/* banner end here */
+/* about start here */
+#aboutPart{
+    margin: 130px 0;
+}
+.about{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+}
+.aboutContent{
+    text-align: center;
+    
+}
+.aboutContent h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+.aboutContent p{
+    width: 725px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    margin: 0 auto;
+}
+.aboutBio{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.aboutBio p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.aboutBio h5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#474747;
+}
+
+/* about end here */
+/* What i do start */
+#whatIDoPart{
+    margin:130px 0;
+}
+.whatIDoHeading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.whatIDoHeading h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+.whatIDoHeading p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 30px;
+    width: 810px;
+    margin: 0 auto;
+}
+.one{
+    padding:31px;
+    background-color: white;
+box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.08);
+}
+.cardSection{
+    display: flex;
+    gap: 24px;
+}
+.one h4{
+    margin-top: 30px;
+    margin-bottom:20px;
+     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+.one p{
+ 
+     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    
+    color: #757575;
+    line-height: 28px;
+    font-size: 16px;
 }
