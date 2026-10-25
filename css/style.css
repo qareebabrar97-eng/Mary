@@ -151,6 +151,7 @@ gap: 71px;
      border: 1px solid #FD6E0A;
     background:transparent;
     color: #FD6E0A;
+    transition: .4s;
 }
 /* banner end here */
 /* about start here */
@@ -212,7 +213,7 @@ gap: 71px;
 .whatIDoHeading h2{
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 35px;
     color: black;
     margin-bottom: 30px;
 }
@@ -229,6 +230,7 @@ gap: 71px;
     padding:31px;
     background-color: white;
 box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.08);
+border-radius: 5px;
 }
 .cardSection{
     display: flex;
@@ -250,4 +252,54 @@ box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.08);
     color: #757575;
     line-height: 28px;
     font-size: 16px;
+}
+.resumeHead{
+    text-align: center;
+}
+.resumeHead h4{
+      font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 113px;
+}
+.resumeWrapper h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resumeWrapper{
+    display: flex;
+    gap:71px;
+    
+}
+.resumeWrapper h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resumeWrapper h5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resumeWrapper p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+    line-height: 28px;
+    width: 450px;
+}
+.resumeBtn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
