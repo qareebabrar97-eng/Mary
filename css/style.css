@@ -5,6 +5,9 @@
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
   /* header start here */
 .headerPart{
     padding:50px 0;
@@ -303,3 +306,88 @@ border-radius: 5px;
     margin-top: 50px;
     margin-bottom: 113px;
 }
+/* Resume end */
+/* Footer start */
+#footerPart{
+    background: #FFF8F3;
+    padding: 130px 0;
+}
+.footer{
+    display: flex;
+    gap: 117px;
+}
+.footer .left{
+    width: 50%;
+}
+.footer .left h2{
+     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer .left p{
+     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    width: 562px;
+    margin-bottom: 30px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.social a i{
+    color: #FD6E0A;
+    font-size: 24px;
+}
+.footer .right{
+width: 50%;
+}
+.footer .right h2{
+     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+ .form .formCommon{
+    display: block;
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    background: white;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+ }
+ .footerBtn{
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    border: 1px solid #FD6E0A;
+    
+    
+}
+.footerBtn:hover{
+     border: 1px solid #FD6E0A;
+    background:transparent;
+    color: #FD6E0A;
+    transition: .4s;
+}
+/* Footer end */
